@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dan Bing - Granjon</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/FFFavicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+     
+   
+    
+    <div class="recipe">
+      <div id="cf2" class="shadow">
+        <img class="bottom" src="imgs/DanBingRecipe.png" width="100%" height="auto"></img>
+        <img class="top" src="imgs/DanBing.png" width="100%" height="auto"></img>
+        </div>
+        <div class="container">
+        <!-- <p class="toggle" id="cf_onclick">recipe</p> -->
+        <p style="text-align: center;"><input id="cf_onclick" type="button" class="toggle" value="View Recipe" onclick="return change(this);" /></p>
+      </div>
+</div>
+    <div class="container details">
+    <ul class="crumbs">
+      <li><a href="recipehome.html" class="link_primary">Recipe List</a></li>
+      <li class="last">Dan Bing</li>
+    </ul>
+    </div>
+    <div class="container details">
+      <h2 class="about">The History of Dan Bing &amp; Granjon</h1>
+      <p>Dan Bing is attributed to being a Taiwanese development of the traditional Jian Bing, a Chinese egg crepe thought to have originated in the Shandong Province from military 
+commander Zhuge Liang after watching his soldiers use their shields to cook after losing their woks. </p>
+      <p>Granjon, an Old Style typeface, is the perfect complement to the traditional Taiwanese dish. Designed in 1928 by George W. Jones, this serif typeface is known for its delicate, incisor-like serifs, high stroke contrast, ascender capped with downward slope, and vertical stress. </p>
+
+    </div>
+    <div class="container detailscard">
+    <!-- <div class="horizontalrule"></div> -->
+    <h2 style="padding-bottom: 32px;">Recipe</h2>
+    <div class="row">
+      <div class="col-sm-4 cardborder">
+        <h4>Ingredients</h4>
+    <p class="recipeitem"><span class="recipeemphasis">three</span> eggs<br>
+    <span class="recipeemphasis">one half cup</span> bread flour<br>
+    <span class="recipeemphasis">two tbsp.</span> corn starch<br>
+    <span class="recipeemphasis">one cup</span> water<br>
+    <span class="recipeemphasis">three fourths tsp.</span> sesame oil<br>
+    <span class="recipeemphasis">three tbsp.</span> scallions<br>
+    <span class="recipeemphasis">some</span> soy paste or chili sauce</p>
+  </div>
+  <div class="col-sm-8">
+    <h4>Steps</h4>
+    <p>Mix together your dry ingredients in a small bowl. Add water, mix well, and let batter rest for 10 minutes.</p>
+    <p>For each crepe, whisk 1 egg with 1/4 tsp. sesame oil, 1 tbsp. of water, and a tbsp. of chopped scallions.</p>
+    <p>Heat a non-stick pan to medium with oil. Stir the batter up and add a third of it into the pan.</p>
+    <p>Coat the pan with a thin layer of batter, and cook the crepe until it’s set and the edges begin to peel back.</p>
+    <p>Flip the crepe onto a plate, and then flip it back into the pan to cook the other side.</p>
+    <p>Pour the egg mixture on top of the crepe. be careful to not let egg go over the edge.</p>
+    <p>Cook until the egg is set and flip the crepe with a spatula. Cook for 10-20 more seconds.</p>
+    <p>When done, flip the crepe egg side up on a plate or cutting board. </p>
+    <p>Cut into sections and drizzle on your sauce of choice. </p>
+  </div>
+  </div>
+  </div>
+
+
+    
+
+  
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark custom_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">© 2018 maddesigndev ❤️</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "View Recipe" )
+        el.value = "View Specimen";
+    else
+        el.value = "View Recipe";
+}
+</script>
+    <script type="text/javascript">$(document).ready(function() {
+  $("#cf_onclick").click(function() {
+  $("#cf2 img.top").toggleClass("transparent");
+  $("#cf2 toggle.top").toggleClass("transparent");
+
+});
+});</script>
+
+
+  </body>
+
+</html>

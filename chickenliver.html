@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chicken Liver Mousse - Cochin</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/FFFavicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+     
+   
+    
+    <div class="recipe">
+      <div id="cf2" class="shadow">
+        <img class="bottom" src="imgs/LiverRecipe.png" width="100%" height="auto"></img>
+        <img class="top" src="imgs/Liver.png" width="100%" height="auto"></img>
+        </div>
+        <div class="container">
+        <!-- <p class="toggle" id="cf_onclick">recipe</p> -->
+        <p style="text-align: center;"><input id="cf_onclick" type="button" class="toggle" value="View Recipe" onclick="return change(this);" /></p>
+      </div>
+</div>
+    <div class="container details">
+    <ul class="crumbs">
+      <li><a href="recipehome.html" class="link_primary">Recipe List</a></li>
+      <li class="last">Chicken Liver Mousse</li>
+    </ul>
+    </div>
+    <div class="container details">
+      <h2 class="about">The History of Chicken Liver Mousse &amp; Cochin</h1>
+      <p>Chicken Liver Mousse is one of the first recipes aspiring chefs learn to make. The traditional French dish was a staple in Julia Child’s Mastering the Art of French Cooking. The ingredient “liver” may be a little worrisome for the average foodie, but it’s rich history, and rich taste are very approachable, similar to the French transitional typeface, Cochin. </p>
+      <p>Cochin, was produced in 1912 by Georges Peignot for his Paris type founder. The typeface was designed on the copperplate engravings of the French 17th century artist Nicolas Cochin, the typeface’s namesake. </p>
+
+    </div>
+    <div class="container detailscard">
+    <!-- <div class="horizontalrule"></div> -->
+    <h2 style="padding-bottom: 32px;">Recipe</h2>
+    <div class="row">
+      <div class="col-sm-4 cardborder">
+        <h4>Ingredients</h4>
+    <p class="recipeitem"><span class="recipeemphasis">two tbsp.</span> butter<br>
+    <span class="recipeemphasis">two cups</span> chopped onion<br>
+    <span class="recipeemphasis">one cup</span> chopped tart apple<br>
+    <span class="recipeemphasis">one pound</span> chicken livers<br>
+    <span class="recipeemphasis">one fourth tsp.</span> white pepper<br>
+    <span class="recipeemphasis">one half tsp.</span> salt<br>
+    <span class="recipeemphasis">one fourth cup</span> brandy</br>
+    <span class="recipeemphasis">one cup</span> heavy cream</p>
+  </div>
+  <div class="col-sm-8">
+    <h4>Steps</h4>
+    <p>In a large sauce pan over low heat, melt the butter and cook onion, apple, and thyme leaves covered.</p>
+    <p>When apples are softened, remove lid and increase heat to medium level.</p>
+    <p>Add cut chicken livers to the pan and cook until they are firm yet still pink inside.</p>
+    <p>Remove the chicken livers, onion, apple, and thyme leaves from the heat and allow to cool.</p>
+    <p>Add the white pepper, salt, and brandy into a food processor and puree all ingredients.</p>
+    <p>After pureeing all the ingredients in a food processor, cover and chill until firm.</p>
+    <p>While the puree is chilling, whip the heavy cream to medium peaks. Fold the peaks into the cooled pureed liver mixture.</p>
+    <p>Serve chilled. We also recommend a fresh, french baguette.</p>
+  </div>
+  </div>
+  </div>
+
+
+    
+
+  
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark custom_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">© 2018 maddesigndev ❤️</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "View Recipe" )
+        el.value = "View Specimen";
+    else
+        el.value = "View Recipe";
+}
+</script>
+    <script type="text/javascript">$(document).ready(function() {
+  $("#cf_onclick").click(function() {
+  $("#cf2 img.top").toggleClass("transparent");
+  $("#cf2 toggle.top").toggleClass("transparent");
+
+});
+});</script>
+
+
+  </body>
+
+</html>

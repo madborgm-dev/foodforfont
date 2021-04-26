@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Double Pork Carnitas - Mission District</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/FFFavicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+     
+   
+    
+    <div class="recipe">
+      <div id="cf2" class="shadow">
+        <img class="bottom" src="imgs/PorkRecipe.png" width="100%" height="auto"></img>
+        <img class="top" src="imgs/Pork.png" width="100%" height="auto"></img>
+        </div>
+        <div class="container">
+        <!-- <p class="toggle" id="cf_onclick">recipe</p> -->
+        <p style="text-align: center;"><input id="cf_onclick" type="button" class="toggle" value="View Recipe" onclick="return change(this);" /></p>
+      </div>
+</div>
+    <div class="container details">
+    <ul class="crumbs">
+      <li><a href="index.html" class="link_primary">Recipe List</a></li>
+      <li class="last">Double Pork Carnitas</li>
+    </ul>
+    </div>
+    <div class="container details">
+      <h2 class="about">The History of Double Pork Carnitas &amp; Mission District</h1>
+      <p>Carnitas translates directly as “little meats” in Spanish. The traditional Mexican cuisine dish
+originates from the state of Michoacán. What makes Carnitas special is the way they are
+cooked, typically made by braising or simmering pork in oil or lard for three to four hours
+until the meat is very tender and juicy. Michoacan carnitas require “Hierbas de Olor,” (Herbs
+that smell) such as bay leaf, thyme and marjoram for the traditional flavors.</p>
+      <p>The idea and influences for Mission Gothic came during a trip designers James T. Edmonson
+and Trevor Baum took with the Lost Type Co. to San Francisco’s Mission District. The area
+is known as “The Mission,” was colonized in the late 18th century by Spanish missionaries.
+The area’s Spanish heritage is seen throughout the neighborhood and localized styling of
+Mexican food.</p>
+
+    </div>
+    <div class="container detailscard">
+    <!-- <div class="horizontalrule"></div> -->
+    <h2 style="padding-bottom: 32px;">Recipe</h2>
+    <div class="row">
+      <div class="col-sm-4 cardborder">
+        <h4>Ingredients</h4>
+    <p class="recipeitem"><span class="recipeemphasis">two lbs.</span> pork shoulder<br>
+    <span class="recipeemphasis">two tsps. </span> salt<br>
+    <span class="recipeemphasis">two tsps.</span> ground black pepper<br>
+    <span class="recipeemphasis">two tsps.</span> dried oregano (preferably mexican)<br>
+    <span class="recipeemphasis">one half</span> large onion<br>
+    <span class="recipeemphasis">one</span> avocado, halved, pitted, sliced<br>
+    fresh cilantro sprigs<br>
+    <span class="recipeemphasis">one</span> sliced red bell pepper<br>
+    <span class="recipeemphasis">one packet</span> corn tortillas
+  </p>
+  </div>
+  <div class="col-sm-8">
+    <h4>Steps</h4>
+    <p>Toss pork in bowl of slow cooker with slat, black pepper, and dried oregano to coat.</p>
+    <p>Cut the onion into four pieces. Place the onion atop the pork in the slow cooker.</p>
+    <p>Cover the slow cooker and cook the pork on low setting until the meat is as tender as possible. It should take 6 hours for the meat to be falling apart.</p>
+    <p>Using a slotted spoon, transfer the tender pork to a cutting board. Discard the onion.</p>
+    <p>Using your fingers, shred the pork. Transfer carnitas to a platter.</p>
+    <p>Place the avocado slices, cilantro sprigs, and sliced red bell peppers, if desired, alongside.</p>
+    <p>Wrap the corn tortillas in a damp kitchen towel. Microwave them for about one minute or until they are warm to the touch.</p>
+    <p>Serve the carnitas with the warm tortillas and your choice of salsa and/or toppings.</p>
+  </div>
+  </div>
+  </div>
+
+
+    
+
+  
+
+     <!-- Footer -->
+    <footer class="py-5 bg-dark custom_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">© 2018 maddesigndev ❤️</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "View Recipe" )
+        el.value = "View Specimen";
+    else
+        el.value = "View Recipe";
+}
+</script>
+    <script type="text/javascript">$(document).ready(function() {
+  $("#cf_onclick").click(function() {
+  $("#cf2 img.top").toggleClass("transparent");
+  $("#cf2 toggle.top").toggleClass("transparent");
+
+});
+});</script>
+
+
+  </body>
+
+</html>

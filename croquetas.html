@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Croquetas de bacalao - Valentina</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/FFFavicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+     
+   
+    
+    <div class="recipe">
+      <div id="cf2" class="shadow">
+        <img class="bottom" src="imgs/CroquetaRecipe.png" width="100%" height="auto"></img>
+        <img class="top" src="imgs/Croqueta.png" width="100%" height="auto"></img>
+        </div>
+        <div class="container">
+        <!-- <p class="toggle" id="cf_onclick">recipe</p> -->
+        <p style="text-align: center;"><input id="cf_onclick" type="button" class="toggle" value="View Recipe" onclick="return change(this);" /></p>
+      </div>
+</div>
+    <div class="container details">
+    <ul class="crumbs">
+      <li><a href="recipehome.html" class="link_primary">Recipe List</a></li>
+      <li class="last">Croquetas de bacalao</li>
+    </ul>
+    </div>
+    <div class="container details">
+      <h2 class="about">The History of Croquetas de bacalao &amp; Valentina</h1>
+      <p>Known as “a little bolster of flavored béchamel encased in a crisp jacket of finely grated bread crumbs,” this dish can be traced back to Andalucía, a region of hills, rivers and farmland bordering Spain’s southern coast. Croquetas are a staple of most tapas bars, and a way for Spanish housewives to demonstrate their skills without having to buy many expensive ingredients. They may be filled with shrimp, mushrooms, leftover chicken or fish, or serrano ham bone scraps. </p>
+      <p>Valentina is a classic didone typeface designed following the rules set by Bodoni on the 18th Century. The classic design is combined with many features from the antique Spanish punches of that period. The type designer, Pedro Arilla, is originally from Spain, and named the font after his grandmother. The typeface features over 450+ glyphs and 46 different ligatures.  </p>
+
+    </div>
+    <div class="container detailscard">
+    <!-- <div class="horizontalrule"></div> -->
+    <!-- <img src="imgs/croqueta.png" width="100%" height="auto"></img> -->
+    <h2 style="padding-bottom: 32px;">Recipe</h2>
+    <div class="row">
+      <div class="col-sm-4 cardborder">
+        <h4>Ingredients</h4>
+    <p class="recipeitem"><span class="recipeemphasis">three fourth cup</span> milk<br>
+    <span class="recipeemphasis">five </span> garlic cloves, chopped<br>
+    <span class="recipeemphasis">300 g.</span> wet-salted cod filets<br>
+    <span class="recipeemphasis">one</span> sebago potato, steamed & mashed<br>
+    <span class="recipeemphasis">two tbsp.</span> extra virgin olive oil<br>
+    <span class="recipeemphasis">one</span>  lemon, zested & one tsp juice<br>
+    <span class="recipeemphasis">two</span> roma tomatoes, concasse<br>
+    <span class="recipeemphasis">two</span> eggs, lightly beaten with one tbsp of milk<br>
+    plain flour & panko breadcrumbs<br>
+    small sebago potato, steamed with skin on, peeled & mashed<br>
+    <span class="recipeemphasis">four</span> garlic cloves, crushed<br>
+    <span class="recipeemphasis">150 mL</span> extra virgin olive oil</p>
+  </div>
+  <div class="col-sm-8">
+    <h4>Steps</h4>
+    <p>For alioli, combine potato and garlic. </p>
+    <p>While whisking, gradually add oil, drop by drop at first, then in a thin, steady stream until it’s emulsified.</p>
+    <p>Place milk, garlic and cod in a small pan over medium heat and cook for 10 minutes or until cod is tender. </p>
+    <p>Drain the mixture, reserving the solids.</p>
+    <p>Add potato, olive oil, lemon zest and juice, and cream.</p>
+    <p>Shape into 14 oval croquettes, then refrigerate for 30 minutes or until firm.</p>
+    <p>Dredge croquettes in flour, shake off excess, then dip in egg and coat in breadcrumbs.</p>
+    <p>Fill a deep-fryer or large pan 1/3 full with oil and heat to 180°C.</p>
+    <p>Gently drop into oil and fry. Serve with your alioli.</p>
+  </div>
+  </div>
+  </div>
+
+
+    
+
+  
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="py-5 bg-dark custom_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">© 2018 maddesigndev ❤️</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "View Recipe" )
+        el.value = "View Specimen";
+    else
+        el.value = "View Recipe";
+}
+</script>
+    <script type="text/javascript">$(document).ready(function() {
+  $("#cf_onclick").click(function() {
+  $("#cf2 img.top").toggleClass("transparent");
+  $("#cf2 toggle.top").toggleClass("transparent");
+
+});
+});</script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shrimp &amp; Grits - Abril</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/FFFavicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+     
+   
+    
+    <div class="recipe">
+      <div id="cf2" class="shadow">
+        <img class="bottom" src="imgs/ShrimpRecipe.png" width="100%" height="auto"></img>
+        <img class="top" src="imgs/Shrimp.png" width="100%" height="auto"></img>
+        </div>
+        <div class="container">
+        <!-- <p class="toggle" id="cf_onclick">recipe</p> -->
+        <p style="text-align: center;"><input id="cf_onclick" type="button" class="toggle" value="View Recipe" onclick="return change(this);" /></p>
+      </div>
+</div>
+    <div class="container details">
+    <ul class="crumbs">
+      <li><a href="recipehome.html" class="link_primary">Recipe List</a></li>
+      <li class="last">Shrimp &amp; Grits</li>
+    </ul>
+    </div>
+    <div class="container details">
+      <h2 class="about">The History of Shrimp &amp; Grits &amp; Abril</h1>
+      <p>Eating Shrimp and Grits elicits a rich taste and Southern traditions. Grits’ origins are traced to the Native American Muskogee tribe’s preparation of Indian corn, grinding the corn in a stone mill, giving it its familiar “gritty” texture. There are even known writings from West African slave descendants that mention meals resembling shrimp and grits. Still, it wasn’t until Crook’s Corner chef Bill Neal’s recipe was published in The New York Times that the humble dish gained popularity nationwide.</p>
+      <p>Abril Text was conceived by designers Veronika Burian and José Scaglione taking inspiration from 19th century slab serifs and Scotch Roman typefaces. It evokes an older, elegant feel, but still features a more contemporary look and feel. It’s a little formal, but has enough swing in its serifs to make it a Southern Belle.</p>
+
+    </div>
+    <div class="container detailscard">
+    <!-- <div class="horizontalrule"></div> -->
+    <h2 style="padding-bottom: 32px;">Recipe</h2>
+    <div class="row">
+      <div class="col-sm-4 cardborder">
+        <h4>Ingredients</h4>
+    <p class="recipeitem"><span class="recipeemphasis">12</span> yellow shrimp<br>
+    <span class="recipeemphasis">one pt. </span> yellow grits<br>
+    <span class="recipeemphasis">one cup</span> sharp white cheddar, grated<br>
+    <span class="recipeemphasis">four oz.</span> unsalted butter<br>
+    <span class="recipeemphasis">one qt.</span> chicken stock<br>
+    <span class="recipeemphasis">eight oz.</span> smoked andouille sausage, small dice<br>
+    <span class="recipeemphasis">two</span> roma tomatoes, concasse<br>
+    <span class="recipeemphasis">six oz.</span> burning river pale ale<br>
+    <span class="recipeemphasis">one </span> shallot, minced<br>
+    <span class="recipeemphasis">one bu.</span> scallions, sliced thin<br>
+    <span class="recipeemphasis">one</span> fresh lime</p>
+  </div>
+  <div class="col-sm-8">
+    <h4>Steps</h4>
+    <p>Simmer chicken stock and slowly whisk in grits. Stir every few minutes to prevent sticking.</p>
+    <p>Saute andouille in vegetable oil until brown and crispy. Remove and set aside.</p>
+    <p>Season shrimp with salt and pepper. Sear in residual andouille fat and remove just before the center becomes opaque.</p>
+    <p>Drain excess fat and sweat shallots until aroma develops.</p>
+    <p>Deglaze with beer and add 1/2 C chicken stock. Simmer until reduced by ¾.</p>
+    <p>Add tomatoes, shrimp and andouille to sauce. Season to taste and finish with fresh lime juice.</p>
+    <p>Whisk butter and cheese into grits.</p>
+    <p>Spoon grits onto the center of the plate and top with 6 shrimp. Pour sauce over top and garnish with scallions.</p>
+  </div>
+  </div>
+  </div>
+
+
+    
+
+  
+
+ <!-- Footer -->
+    <footer class="py-5 bg-dark custom_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">© 2018 maddesigndev ❤️</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "View Recipe" )
+        el.value = "View Specimen";
+    else
+        el.value = "View Recipe";
+}
+</script>
+    <script type="text/javascript">$(document).ready(function() {
+  $("#cf_onclick").click(function() {
+  $("#cf2 img.top").toggleClass("transparent");
+  $("#cf2 toggle.top").toggleClass("transparent");
+
+});
+});</script>
+
+
+  </body>
+
+</html>

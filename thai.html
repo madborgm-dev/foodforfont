@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thai Green Curry - Futura</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/FFFavicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+     
+   
+    
+    <div class="recipe">
+      <div id="cf2" class="shadow">
+        <img class="bottom" src="imgs/ThaiRecipe.png" width="100%" height="auto"></img>
+        <img class="top" src="imgs/Thai.png" width="100%" height="auto"></img>
+        </div>
+        <div class="container">
+        <!-- <p class="toggle" id="cf_onclick">recipe</p> -->
+        <p style="text-align: center;"><input id="cf_onclick" type="button" class="toggle" value="View Recipe" onclick="return change(this);" /></p>
+      </div>
+</div>
+    <div class="container details">
+    <ul class="crumbs">
+      <li><a href="recipehome.html" class="link_primary">Recipe List</a></li>
+      <li class="last">Thai Green Curry</li>
+    </ul>
+    </div>
+    <div class="container details">
+      <h2 class="about">The History of Thai Green Curry &amp; Futura</h1>
+      <p>Thai Green Curry is one of the many favorite curry dishes in Thai restaurants. Most curries
+are based on pastes made from grinding up fresh and dried herbs and spices. Considered
+to be native to India, the methods for cooking curry were brought to South East Asia by
+Indian immigrants over the past several centuries. Curry is a staple dish in many homes for
+its use of inexpensive and healthy ingredients. </p>
+      <p>Futura was one of the many typeface designs influenced by the minimalist aesthetic of the
+Bauhaus movement. German type designer Paul Renner designed the font between 1924
+and 1926 and released the font in 1927. Futura makes use of basic geometric proportions
+with no serifs or frills.</p>
+
+    </div>
+    <div class="container detailscard">
+    <!-- <div class="horizontalrule"></div> -->
+    <h2 style="padding-bottom: 32px;">Recipe</h2>
+    <div class="row">
+      <div class="col-sm-4 cardborder">
+        <h4>Ingredients</h4>
+    <p class="recipeitem"><span class="recipeemphasis">three fourths cup</span> sliced shallots<br>
+    <span class="recipeemphasis">one and three fourths tsp. </span> Thai Green Curry Paste<br>
+    <span class="recipeemphasis">one can</span> unsweetened coconut milk<br>
+    <span class="recipeemphasis">two tsp.</span> fish sauce<br>
+    <span class="recipeemphasis">one lb.</span> chicken thighs<br>
+    <span class="recipeemphasis">one large</span> red bell pepper<br>
+    <span class="recipeemphasis">one fourth cup</span> chopped basil sprigs<br>
+    <span class="recipeemphasis">two tbsp.</span> fresh lime juice</p>
+  </div>
+  <div class="col-sm-8">
+    <h4>Steps</h4>
+    <p>In a large saucepan, heat one tbsp. of vegetable oil over medium heat.</p>
+    <p>Once the vegetable oil is hot, add three fourths cup sliced shallots and one and three fourths tsp. of green curry paste.</p>
+    <p>Stir the mixture until the shallots soften, about two minutes.</p>
+    <p>Add one 14-ounce can of unsweetened coconut milk and fish sauce to the pan with the shallots.</p>
+    <p>Bring the curry paste, shallots, coconut milk, and fish sauce in the pan to a boil.</p>
+    <p>Add chicken and bell pepper to the pan, stir until the chicken is just cooked through.</p>
+    <p>Once the chicken is just cooked through, stir in one fourth chopped fresh basil and two tbsps. fresh lime juice.</p>
+    <p>Divide curry among bowls of cooked white rice. Garnish with basil and lime juice.</p>
+  </div>
+  </div>
+  </div>
+
+
+    
+
+  
+
+     <!-- Footer -->
+    <footer class="py-5 bg-dark custom_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">© 2018 maddesigndev ❤️</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "View Recipe" )
+        el.value = "View Specimen";
+    else
+        el.value = "View Recipe";
+}
+</script>
+    <script type="text/javascript">$(document).ready(function() {
+  $("#cf_onclick").click(function() {
+  $("#cf2 img.top").toggleClass("transparent");
+  $("#cf2 toggle.top").toggleClass("transparent");
+
+});
+});</script>
+
+
+  </body>
+
+</html>

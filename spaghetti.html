@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Spaghetti Carbonara - DDC Hardware</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/FFFavicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+     
+   
+    
+    <div class="recipe">
+      <div id="cf2" class="shadow">
+        <img class="bottom" src="imgs/SpaghetttiRecipe.png" width="100%" height="auto"></img>
+        <img class="top" src="imgs/Spaghetti.png" width="100%" height="auto"></img>
+        </div>
+        <div class="container">
+        <!-- <p class="toggle" id="cf_onclick">recipe</p> -->
+        <p style="text-align: center;"><input id="cf_onclick" type="button" class="toggle" value="View Recipe" onclick="return change(this);" /></p>
+      </div>
+</div>
+    <div class="container details">
+    <ul class="crumbs">
+      <li><a href="recipehome.html" class="link_primary">Recipe List</a></li>
+      <li class="last">Spaghetti Carbonara</li>
+    </ul>
+    </div>
+    <div class="container details">
+      <h2 class="about">The History of Spaghetti Carbonara &amp; DDC Hardware</h1>
+      <p>Carbonara is a traditional Italian pasta dish that was created in the middle of the 20th century. Although the origin of the dish is obscure, the name is derived from “cabonaro” which is the Italian word for charcoal burner. Many believe the hearty dish was first made to feed Italian charcoal worker or “coal miners” in the United States. Spaghetti is the usual accompanying pasta. </p>
+      <p>DDC Hardware is a display typeface designed and released by Aaron James Draplin and Riley Cran in 2017 through the Lost Type Co. After searching for a font that was “painfully functional and unapologetic in its lack of “the latest stuff,” Draplin drew inspiration for DDC Hardware from old steel siding or run-down factory brick walls. The utilitarian typeface represents a tough, no nonsense time. THE typeface comes in three separate weights, regular, condensed and compressed. </p>
+
+    </div>
+    <div class="container detailscard">
+    <!-- <div class="horizontalrule"></div> -->
+    <h2 style="padding-bottom: 32px;">Recipe</h2>
+    <div class="row">
+      <div class="col-sm-4 cardborder">
+        <h4>Ingredients</h4>
+    <p class="recipeitem"><span class="recipeemphasis">12</span> yellow shrimp<br>
+    <span class="recipeemphasis">one pt. </span> yellow grits<br>
+    <span class="recipeemphasis">one cup</span> sharp white cheddar, grated<br>
+    <span class="recipeemphasis">four oz.</span> unsalted butter<br>
+    <span class="recipeemphasis">one qt.</span> chicken stock<br>
+    <span class="recipeemphasis">eight oz.</span> smoked andouille sausage, small dice<br>
+    <span class="recipeemphasis">two</span> roma tomatoes, concasse<br>
+    <span class="recipeemphasis">six oz.</span> burning river pale ale<br>
+    <span class="recipeemphasis">one </span> shallot, minced<br>
+    <span class="recipeemphasis">one bu.</span> scallions, sliced thin<br>
+    <span class="recipeemphasis">one</span> fresh lime</p>
+  </div>
+  <div class="col-sm-8">
+    <h4>Steps</h4>
+    <p>Simmer chicken stock and slowly whisk in grits. Stir every few minutes to prevent sticking.</p>
+    <p>Saute andouille in vegetable oil until brown and crispy. Remove and set aside.</p>
+    <p>Season shrimp with salt and pepper. Sear in residual andouille fat and remove just before the center becomes opaque.</p>
+    <p>Drain excess fat and sweat shallots until aroma develops.</p>
+    <p>Deglaze with beer and add 1/2 C chicken stock. Simmer until reduced by 3/4.</p>
+    <p>Add tomatoes, shrimp and andouille to sauce. Season to taste and finish with fresh lime juice.</p>
+    <p>Whisk butter and cheese into grits.</p>
+    <p>Spoon grits onto the center of the plate and top with 6 shrimp. Pour sauce over top and garnish with scallions.</p>
+  </div>
+  </div>
+  </div>
+
+
+    
+
+  
+
+     <!-- Footer -->
+    <footer class="py-5 bg-dark custom_footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">© 2018 maddesigndev ❤️</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "View Recipe" )
+        el.value = "View Specimen";
+    else
+        el.value = "View Recipe";
+}
+</script>
+    <script type="text/javascript">$(document).ready(function() {
+  $("#cf_onclick").click(function() {
+  $("#cf2 img.top").toggleClass("transparent");
+  $("#cf2 toggle.top").toggleClass("transparent");
+
+});
+});</script>
+
+
+  </body>
+
+</html>
